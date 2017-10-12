@@ -1,0 +1,23 @@
+{
+  "name": "styled-components-ssr-warning",
+  "scripts": {
+    "build": "NODE_ENV=development webpack && node ./server.js"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "recompose": "^0.26.0",
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.3.3",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "webpack": "^3.7.1"
+  }
+}
